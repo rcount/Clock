@@ -31,10 +31,11 @@ html{
     font-family: "Inconsolata";
     font: 20px ;
     height: 100%;
-    
+    /* background: var(--bg-color); */
 }
 
 body{
+    display: flex;
     background: var(--bg-color);
     color: var(--text);
     margin-top: 25%;
