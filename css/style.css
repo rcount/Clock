@@ -39,6 +39,7 @@ html{
 body{
     display: flex;
     justify-content: flex;
+    align-content: flex;
     background: var(--bg-color);
     color: var(--text);
     /* margin-top: 25%; */
