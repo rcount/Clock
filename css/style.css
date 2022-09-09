@@ -4,8 +4,8 @@
 
 @media (prefers-color-scheme: dark) {
     .theme{
-        /* --bg-color: #ba0c2f; */
-        --bg-color: #FE019A;
+        --bg-color: #ba0c2f;
+        /* --bg-color: #FE019A; */
         --text: white;
     }
 }
@@ -42,8 +42,13 @@ body{
     align-content: flex;
     background: var(--bg-color);
     color: var(--text);
-    /* margin-top: 25%; */
+    margin-top: 25%;
     width: auto;
+}
+
+section.clockArea{
+    width: 100%;
+    
 }
 
 ul{
