@@ -2,7 +2,7 @@
 @import "fonts.css";
 
 :root{
-    --second-font: open24Display;
+    --second-font: sevenSegment;
 }
 
 @media (prefers-color-scheme: dark) {
