@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
+@import "fonts.css";
 
-
+:root{
+    --second-font: open24Display;
+}
 
 @media (prefers-color-scheme: dark) {
     .theme{
-        --bg-color: #ba0c2f;
+        /* --bg-color: #9d2235; razorbacks */
+        --bg-color: #ff69b4;
+        /* --bg-color: black; */
         /* --bg-color: #FE019A; */
+        /* --text: red; */
         --text: white;
     }
 }
 
 @media (prefers-color-scheme: light) {
     .theme{
-        --text: #ba0c2f;
+        --text: #ff69b4;
         --bg-color: white;
     }
 }
@@ -24,6 +30,8 @@
 /* .clock{
    margin-top: 25%;
 } */
+
+
 
 html{
     display: flex;
@@ -68,14 +76,16 @@ li{
 
 #clock{
     width: 100%;
-    margin-top: calc();
+    /* margin-top: calc(); */
 }
 
 #time{
-    font-size: 3rem;
+    font-size:  4rem;
+    font-weight: bold;
+    font-family: var(--second-font);
 }
 
 #date{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }

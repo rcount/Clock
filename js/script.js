@@ -29,10 +29,10 @@ function updateClock(){
     var date = new Date()
     document.getElementById('time').innerHTML = date.toLocaleTimeString([], {hour12: true});
     document.getElementById('date').innerHTML = date.toLocaleDateString('en-us', {month: "numeric", day: "numeric", year: "numeric"});
-    let options = {
-        timezone: "America/New_York",
-        hour12: true
-    };
+    // let options = {
+    //     timezone: "America/Chicago",
+    //     hour12: true
+    // };
     
     setTimeout(updateClock, 1000);
     
