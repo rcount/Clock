@@ -8,3 +8,8 @@
     font-family: sevenSegment;
     src: url("Seven\ Segment.ttf");
 }
+
+@font-face {
+    font-family: fourteenSegment;
+    src: url("DSEG14ClassicMini-Regular.ttf");
+}

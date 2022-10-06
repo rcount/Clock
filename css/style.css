@@ -2,24 +2,24 @@
 @import "fonts.css";
 
 :root{
-    --second-font: sevenSegment;
+    --second-font: fourteenSegment;
 }
 
 @media (prefers-color-scheme: dark) {
     .theme{
         /* --bg-color: #9d2235; razorbacks */
-        --bg-color: #ff69b4;
+        --bg-color: #ec8e32;
         /* --bg-color: black; */
         /* --bg-color: #FE019A; */
         /* --text: red; */
-        --text: white;
+        --text: #393939;
     }
 }
 
 @media (prefers-color-scheme: light) {
     .theme{
-        --text: #ff69b4;
-        --bg-color: white;
+        --text: #ec8e32;
+        --bg-color: #393939;
     }
 }
 
@@ -46,18 +46,19 @@ html{
 
 body{
     display: flex;
-    justify-content: flex;
-    align-content: flex;
+    justify-content: center;
+    align-content: center;
     background: var(--bg-color);
     color: var(--text);
     margin-top: 25%;
     width: 100%;
 }
 
-section.clockArea{
+/* section.clockArea{
     width: 100%;
-    
-}
+    align-content: center;
+    justify-content: center;
+} */
 
 ul{
     list-style-type: none;
@@ -74,13 +75,15 @@ li{
     display: inline;
 }
 
-#clock{
-    width: 100%;
-    /* margin-top: calc(); */
-}
+/* #clock{
+     align-content: center;
+    justify-content: center;
+    width: 100%; 
+    margin-top: calc();
+} */
 
 #time{
-    font-size:  4rem;
+    font-size:  3rem;
     font-weight: bold;
     font-family: var(--second-font);
 }
