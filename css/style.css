@@ -8,9 +8,9 @@
 @media (prefers-color-scheme: dark) {
     .theme{
         /* --bg-color: #9d2235; razorbacks */
-        --bg-color: #ec8e32;
+        /* --bg-color: #ec8e32; */
         /* --bg-color: black; */
-        /* --bg-color: #FE019A; */
+        --bg-color: #ff69b4;
         /* --text: red; */
         --text: #393939;
     }
@@ -18,7 +18,7 @@
 
 @media (prefers-color-scheme: light) {
     .theme{
-        --text: #ec8e32;
+        --text: #ff69b4;
         --bg-color: #393939;
     }
 }
