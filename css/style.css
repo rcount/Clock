@@ -12,14 +12,14 @@
         /* --bg-color: black; */
         --bg-color: #ff69b4;
         /* --text: red; */
-        --text: #393939;
+        --text: white;
     }
 }
 
 @media (prefers-color-scheme: light) {
     .theme{
         --text: #ff69b4;
-        --bg-color: #393939;
+        --bg-color: white;
     }
 }
 
