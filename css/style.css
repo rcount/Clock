@@ -10,16 +10,16 @@
         /* --bg-color: #9d2235; razorbacks */
         /* --bg-color: #ec8e32; */
         /* --bg-color: black; */
-        --bg-color: #ff69b4;
+        --bg-color: black;
         /* --text: red; */
-        --text: white;
+        --text: #ff7518;
     }
 }
 
 @media (prefers-color-scheme: light) {
     .theme{
-        --text: #ff69b4;
-        --bg-color: white;
+        --text: black;
+        --bg-color: #ff7518;
     }
 }
 
