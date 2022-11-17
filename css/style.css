@@ -18,8 +18,8 @@
 
 @media (prefers-color-scheme: light) {
     .theme{
-        --text: black;
-        --bg-color: #ff7518;
+        --text: red;
+        --bg-color: #909090;
     }
 }
 
